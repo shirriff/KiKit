@@ -2,12 +2,12 @@
 
 ![KiKit Logo](https://github.com/yaqwsx/KiKit/raw/master/kikit/resources/graphics/kikitIcon_64x64.png)
 
-KiKit is a Python library, KiCAD plugin and  a CLI tool to automate several
+KiKit is a Python library, a KiCAD plugin and a CLI tool to automate several
 tasks in a standard KiCAD workflow like:
 
-- panelization of both, regular and oddly shaped, boards (see
+- panelization of both regular and oddly shaped boards (see
   [examples](https://yaqwsx.github.io/KiKit/latest/panelization/examples/))
-- automated exporting manufacturing data based on manufacturer presets
+- automated exporting of manufacturing data based on manufacturer presets
 - multi-board project in KiCAD
 - building board presentation pages (see [an example presentation page generated
   by KiKit](https://roboticsbrno.github.io/RB0002-BatteryPack))
@@ -35,7 +35,7 @@ PS: Be sure to check out my other KiCAD & PCB related projects:
 
 KiKit is available as a [PyPi package](https://pypi.org/project/KiKit/).
 However, due to packaging of KiCAD, installation on some platforms requires
-usage of specific Python interpreter.
+usage of a specific Python interpreter.
 
 Please follow the detailed [installation
 guide](https://yaqwsx.github.io/KiKit/latest/installation/intro/) that covers
@@ -47,10 +47,10 @@ Everything KiKit does, can also be done via Pcbnew in KiCAD. However, you have
 to do it manually. One of the common scenarios is the creation of panels. Most
 of the tutorials on the internet guide you to use the "append board"
 functionality of Pcbnew. However, this approach is labour-intensive, error-prone
-and whenever, you change the board, you have to do it again.
+and whenever you change the board, you have to do it again.
 
 With KiKit you just call a CLI command if you have a simple layout (e.g., a
-grid) or write few Python instructions like "place board here", "add bridge
+grid) or write a few Python instructions like "place board here", "add bridge
 here", "separate boards via mouse bites/v-cuts" and you are done. The process is
 repeatable and actually much simpler than hand-drawing the panels. KiKit also
 allows you to easily export all the Gerbers in a single step.
@@ -70,16 +70,16 @@ manufacturing data and board presentation pages.
 - [automated export of gerbers and assembly data](https://yaqwsx.github.io/KiKit/latest/fabrication/intro/)
 - [3D printed self-registering solder paste stencils](https://yaqwsx.github.io/KiKit/upstream/latest/stencil/#3d-printed-stencils)
 - [steel stencils with alignment jig](https://yaqwsx.github.io/KiKit/latest/stencil/#steel-stencils)
-- create powerfull shell scrips or Makefiles which automates your workflow...
+- create powerfull shell scripts or Makefiles which automate your workflow...
 - ...or invoke the functionality via [GUI in KiCAD](https://yaqwsx.github.io/KiKit/latest/panelization/gui/).
 
 ## How To Use It?
 
 Start with reading the [panelization
 documentation](https://yaqwsx.github.io/KiKit/latest/panelization/intro/). This
-page will you guide through CLI, GUI and scripting usage. Also don't miss the
+page will guide you through CLI, GUI and scripting usage. Also don't miss the
 [examples](https://yaqwsx.github.io/KiKit/latest/panelization/examples/).
-There is also a quick not on how to use [panelization action
+There is also a quick note on how to use [panelization action
 plugin](https://yaqwsx.github.io/KiKit/latest/panelization/gui/). If you are
 interested in generating solder paste stencils, see [Stencil
 documentation](https://yaqwsx.github.io/KiKit/latest/stencil/)
@@ -93,10 +93,10 @@ The project is supported by:
 
 ## KiKit Is Broken or Does Not Work as Expected
 
-Please, first check [FAQ](https://yaqwsx.github.io/KiKit/latest/faq/). If you have not found answer for your
+Please, first check [FAQ](https://yaqwsx.github.io/KiKit/latest/faq/). If you have not found an answer for your
 problem there, feel free to open an issue on GitHub.
 
 If you would like to have a feature in KiKit that is currently not on a roadmap,
-or if you need to prepare custom panelization script (e.g., multi-design panels,
-panels with specific arrangement), you can consider hiring me to do the job.
+or if you need to prepare a custom panelization script (e.g., multi-design panels,
+panels with a specific arrangement), you can consider hiring me to do the job.
 Just reach out to me via e-mail and we can discuss further details.
